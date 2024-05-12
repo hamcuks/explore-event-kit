@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70098D62BEF58A4007A80C6 /* GroupOfObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70098D52BEF58A4007A80C6 /* GroupOfObject.swift */; };
+		E70098D82BF0692B007A80C6 /* EditEventSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70098D72BF0692B007A80C6 /* EditEventSheetView.swift */; };
+		E70098DE2BF0FDFD007A80C6 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70098DD2BF0FDFD007A80C6 /* HomeScreenView.swift */; };
+		E75A7CF52BE6345700CFFB84 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A7CF42BE6345700CFFB84 /* EventViewModel.swift */; };
+		E75A7CF72BE6357500CFFB84 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75A7CF62BE6357500CFFB84 /* Extensions.swift */; };
+		E77E28A02BEDC0A10015DBD0 /* AddEventSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E289F2BEDC0A10015DBD0 /* AddEventSheetView.swift */; };
+		E77E28A22BEDC0DF0015DBD0 /* PeakFocusTimeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E28A12BEDC0DF0015DBD0 /* PeakFocusTimeEnum.swift */; };
+		E77E28A42BEE75080015DBD0 /* SuggestionTimeSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77E28A32BEE75080015DBD0 /* SuggestionTimeSheetView.swift */; };
 		E790E99E2BE51E9000E5C90E /* ExploreEventKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790E99D2BE51E9000E5C90E /* ExploreEventKitApp.swift */; };
 		E790E9A02BE51E9000E5C90E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790E99F2BE51E9000E5C90E /* ContentView.swift */; };
 		E790E9A22BE51E9200E5C90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E790E9A12BE51E9200E5C90E /* Assets.xcassets */; };
 		E790E9A52BE51E9200E5C90E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E790E9A42BE51E9200E5C90E /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E725A9562BE7679B000C25CF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E70098D52BEF58A4007A80C6 /* GroupOfObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfObject.swift; sourceTree = "<group>"; };
+		E70098D72BF0692B007A80C6 /* EditEventSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventSheetView.swift; sourceTree = "<group>"; };
+		E70098DD2BF0FDFD007A80C6 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		E725A9452BE76799000C25CF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E725A9472BE7679A000C25CF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E75A7CF42BE6345700CFFB84 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		E75A7CF62BE6357500CFFB84 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E77E289F2BEDC0A10015DBD0 /* AddEventSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventSheetView.swift; sourceTree = "<group>"; };
+		E77E28A12BEDC0DF0015DBD0 /* PeakFocusTimeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeakFocusTimeEnum.swift; sourceTree = "<group>"; };
+		E77E28A32BEE75080015DBD0 /* SuggestionTimeSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionTimeSheetView.swift; sourceTree = "<group>"; };
 		E790E99A2BE51E9000E5C90E /* ExploreEventKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreEventKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E790E99D2BE51E9000E5C90E /* ExploreEventKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreEventKitApp.swift; sourceTree = "<group>"; };
 		E790E99F2BE51E9000E5C90E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E790E9A12BE51E9200E5C90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E790E9A42BE51E9200E5C90E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E790E9AB2BE5207200E5C90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,10 +64,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70098D92BF0FDC5007A80C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E77E28A32BEE75080015DBD0 /* SuggestionTimeSheetView.swift */,
+				E70098D72BF0692B007A80C6 /* EditEventSheetView.swift */,
+				E77E289F2BEDC0A10015DBD0 /* AddEventSheetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E70098DA2BF0FDCC007A80C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E77E28A12BEDC0DF0015DBD0 /* PeakFocusTimeEnum.swift */,
+				E70098D52BEF58A4007A80C6 /* GroupOfObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E70098DB2BF0FDD3007A80C6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E70098DD2BF0FDFD007A80C6 /* HomeScreenView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E70098DC2BF0FDDD007A80C6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E75A7CF42BE6345700CFFB84 /* EventViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E70098DF2BF0FE04007A80C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E75A7CF62BE6357500CFFB84 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E725A9442BE76799000C25CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E725A9452BE76799000C25CF /* WidgetKit.framework */,
+				E725A9472BE7679A000C25CF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E790E9912BE51E9000E5C90E = {
 			isa = PBXGroup;
 			children = (
 				E790E99C2BE51E9000E5C90E /* ExploreEventKit */,
+				E725A9442BE76799000C25CF /* Frameworks */,
 				E790E99B2BE51E9000E5C90E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +136,12 @@
 		E790E99C2BE51E9000E5C90E /* ExploreEventKit */ = {
 			isa = PBXGroup;
 			children = (
+				E70098DF2BF0FE04007A80C6 /* Extensions */,
+				E70098DC2BF0FDDD007A80C6 /* ViewModels */,
+				E70098DB2BF0FDD3007A80C6 /* Screens */,
+				E70098DA2BF0FDCC007A80C6 /* Models */,
+				E70098D92BF0FDC5007A80C6 /* Views */,
+				E790E9AB2BE5207200E5C90E /* Info.plist */,
 				E790E99D2BE51E9000E5C90E /* ExploreEventKitApp.swift */,
 				E790E99F2BE51E9000E5C90E /* ContentView.swift */,
 				E790E9A12BE51E9200E5C90E /* Assets.xcassets */,
@@ -77,6 +168,7 @@
 				E790E9962BE51E9000E5C90E /* Sources */,
 				E790E9972BE51E9000E5C90E /* Frameworks */,
 				E790E9982BE51E9000E5C90E /* Resources */,
+				E725A9562BE7679B000C25CF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -137,8 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70098D82BF0692B007A80C6 /* EditEventSheetView.swift in Sources */,
 				E790E9A02BE51E9000E5C90E /* ContentView.swift in Sources */,
+				E77E28A22BEDC0DF0015DBD0 /* PeakFocusTimeEnum.swift in Sources */,
+				E75A7CF52BE6345700CFFB84 /* EventViewModel.swift in Sources */,
+				E70098D62BEF58A4007A80C6 /* GroupOfObject.swift in Sources */,
+				E77E28A42BEE75080015DBD0 /* SuggestionTimeSheetView.swift in Sources */,
 				E790E99E2BE51E9000E5C90E /* ExploreEventKitApp.swift in Sources */,
+				E70098DE2BF0FDFD007A80C6 /* HomeScreenView.swift in Sources */,
+				E77E28A02BEDC0A10015DBD0 /* AddEventSheetView.swift in Sources */,
+				E75A7CF72BE6357500CFFB84 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +375,8 @@
 				DEVELOPMENT_TEAM = 57BYB3NG56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExploreEventKit/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to access of users contact data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +406,8 @@
 				DEVELOPMENT_TEAM = 57BYB3NG56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExploreEventKit/Info.plist;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app needs to access of users contact data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
